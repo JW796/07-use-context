@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { UserContext } from '../Contexts/UserContext'
 
 const Dashboard = () => {
+  const user = useContext(UserContext)
   return (
     <div>
-      
+      <h1>Hello {user}</h1>
+      <h2>Your Dashboard</h2>
     </div>
   )
 }
