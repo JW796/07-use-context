@@ -14,7 +14,7 @@ const Home = () => {
         Your Podcasts
       </Link>
       <Link to="/recomendations" className="text-indiog-500 hover:opacity-80">
-        Your Dashboard
+        Your Recomendations
       </Link>
     </div>
   );
